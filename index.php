@@ -104,7 +104,7 @@ usort($pelanggaran, function ($a, $b) {
       <td><?=$i; ?></td>
       <td><?=$r["id siswa"]; ?></td>
       <td><?=$r["kelas"]; ?></td>
-      <td><?=implode(", ", $r["pelanggaran"]) ?></td>
+      <td><?=implode(", ", $r["pelanggaran"])." [".count($r["pelanggaran"])."]" ?></td>
     </tr>
     <?php endforeach; ?>
   </table>
