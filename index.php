@@ -51,7 +51,7 @@ foreach ($idsiswa as $ids) {
       // kembalikan data lainnya
       $pelanggaran[$i]["kelas"] = $r["kelas"];
       //
-      $pelanggaran[$i]["pelanggaran"][] = $r["pelanggaran"]." ".$r["tanggal"];
+      $pelanggaran[$i]["pelanggaran"][] = $r["tanggal"] ." : ".$r["pelanggaran"];
     }
   }
   // beri nilai per pelanggaran
@@ -104,7 +104,7 @@ usort($pelanggaran, function ($a, $b) {
       <td><?=$i; ?></td>
       <td><?=$r["id siswa"]; ?></td>
       <td><?=$r["kelas"]; ?></td>
-      <td><?=implode(", ", $r["pelanggaran"])." [".count($r["pelanggaran"])."]" ?></td>
+      <td><?=implode(" | ", $r["pelanggaran"])." [".count($r["pelanggaran"])."]" ?></td>
     </tr>
     <?php endforeach; ?>
   </table>
