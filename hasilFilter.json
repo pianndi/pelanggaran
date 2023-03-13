@@ -1,0 +1,342 @@
+{
+  "01/2023": [
+    {
+      "id siswa": "Julius",
+      "pelanggaran": [
+        "terlambat 06/01/2023",
+        "terlambat & tidak rapi 10/01/2023",
+        "terlambat 16/01/2023"
+      ],
+      "kelas": "X DKV 2",
+      "rank": 103
+    },
+    {
+      "id siswa": "Donny Dozen",
+      "pelanggaran": [
+        "terlambat 21/01/2023",
+        "terlambat & tidak rapi 21/01/2023"
+      ],
+      "kelas": "X DKV 2",
+      "rank": 73
+    },
+    {
+      "id siswa": "Selviana",
+      "pelanggaran": [
+        "terlambat 06/01/2023",
+        "terlambat & tidak rapi 16/01/2023"
+      ],
+      "kelas": "X DKV 3",
+      "rank": 73
+    },
+    {
+      "id siswa": "Dufan",
+      "pelanggaran": ["terlambat 15/01/2023", "terlambat 30/01/2023"],
+      "kelas": "X DKV 3",
+      "rank": 60
+    },
+    {
+      "id siswa": "Cheryl Mesa Barlianto",
+      "pelanggaran": ["terlambat & tidak rapi 30/01/2023"],
+      "kelas": "X DKV 1",
+      "rank": 43
+    },
+    {
+      "id siswa": "Venny Christine",
+      "pelanggaran": ["terlambat & tidak rapi 03/01/2023"],
+      "kelas": "X DKV 2",
+      "rank": 43
+    },
+    {
+      "id siswa": "Mely Filadelvia",
+      "pelanggaran": ["terlambat & tidak rapi 10/01/2023"],
+      "kelas": "X DKV 2",
+      "rank": 43
+    },
+    {
+      "id siswa": "Hansen",
+      "pelanggaran": ["terlambat 06/01/2023"],
+      "kelas": "X DKV 1",
+      "rank": 30
+    },
+    {
+      "id siswa": "Leny Marselina",
+      "pelanggaran": ["terlambat 06/01/2023"],
+      "kelas": "X DKV 1",
+      "rank": 30
+    },
+    {
+      "id siswa": "Jessica Shan",
+      "pelanggaran": ["terlambat 10/01/2023"],
+      "kelas": "X DKV 1",
+      "rank": 30
+    },
+    {
+      "id siswa": "Ruyandi",
+      "pelanggaran": ["terlambat 20/01/2023"],
+      "kelas": "X DKV 2",
+      "rank": 30
+    },
+    {
+      "id siswa": "Kevin Permana",
+      "pelanggaran": ["terlambat 06/01/2023"],
+      "kelas": "X DKV 3",
+      "rank": 30
+    },
+    {
+      "id siswa": "Herlian Stella",
+      "pelanggaran": ["terlambat 06/01/2023"],
+      "kelas": "X DKV 3",
+      "rank": 30
+    },
+    {
+      "id siswa": "Novita Chen Chen",
+      "pelanggaran": ["terlambat 12/01/2023"],
+      "kelas": "X DKV 3",
+      "rank": 30
+    },
+    {
+      "id siswa": "Wongso Irvoni",
+      "pelanggaran": ["terlambat 21/01/2023"],
+      "kelas": "X DKV 3",
+      "rank": 30
+    }
+  ],
+  "02/2023": [
+    {
+      "id siswa": "Steven",
+      "pelanggaran": [
+        "terlambat 10/02/2023",
+        "terlambat & tidak rapi 10/02/2023",
+        "terlambat 14/02/2023",
+        "terlambat 15/02/2023",
+        "terlambat 15/02/2023"
+      ],
+      "kelas": "X DKV 1",
+      "rank": 163
+    },
+    {
+      "id siswa": "Herlian Stella",
+      "pelanggaran": [
+        "terlambat 02/02/2023",
+        "terlambat 15/02/2023",
+        "terlambat 15/02/2023",
+        "terlambat 15/02/2023"
+      ],
+      "kelas": "X DKV 3",
+      "rank": 120
+    },
+    {
+      "id siswa": "Merry Cristine",
+      "pelanggaran": [
+        "terlambat 08/02/2023",
+        "terlambat & tidak rapi 08/02/2023",
+        "terlambat 14/02/2023"
+      ],
+      "kelas": "X DKV 3",
+      "rank": 103
+    },
+    {
+      "id siswa": "Michael Wijaya",
+      "pelanggaran": [
+        "terlambat 01/02/2023",
+        "terlambat 03/02/2023",
+        "terlambat 15/02/2023"
+      ],
+      "kelas": "X DKV 1",
+      "rank": 90
+    },
+    {
+      "id siswa": "Cheryl Mesa Barlianto",
+      "pelanggaran": [
+        "terlambat 03/02/2023",
+        "terlambat 15/02/2023",
+        "terlambat 20/02/2023"
+      ],
+      "kelas": "X DKV 1",
+      "rank": 90
+    },
+    {
+      "id siswa": "Sharon Mulan",
+      "pelanggaran": [
+        "terlambat 03/02/2023",
+        "terlambat 10/02/2023",
+        "terlambat 20/02/2023"
+      ],
+      "kelas": "X DKV 1",
+      "rank": 90
+    },
+    {
+      "id siswa": "Jessica Shan",
+      "pelanggaran": [
+        "terlambat 07/02/2023",
+        "terlambat 14/02/2023",
+        "terlambat 20/02/2023"
+      ],
+      "kelas": "X DKV 1",
+      "rank": 90
+    },
+    {
+      "id siswa": "Henry Malianto",
+      "pelanggaran": [
+        "terlambat 01/02/2023",
+        "terlambat 07/02/2023",
+        "terlambat 08/02/2023"
+      ],
+      "kelas": "X DKV 2",
+      "rank": 90
+    },
+    {
+      "id siswa": "Wongso Irvoni",
+      "pelanggaran": [
+        "terlambat & tidak rapi 14/02/2023",
+        "terlambat & tidak rapi 14/02/2023"
+      ],
+      "kelas": "X DKV 3",
+      "rank": 86
+    },
+    {
+      "id siswa": "Novia Aprilia",
+      "pelanggaran": [
+        "terlambat 02/02/2023",
+        "terlambat & tidak rapi 15/02/2023"
+      ],
+      "kelas": "X DKV 2",
+      "rank": 73
+    },
+    {
+      "id siswa": "Bernadetta Setiawan",
+      "pelanggaran": [
+        "terlambat & tidak rapi 07/02/2023",
+        "terlambat 20/02/2023"
+      ],
+      "kelas": "X DKV 2",
+      "rank": 73
+    },
+    {
+      "id siswa": "Shen Kuang",
+      "pelanggaran": [
+        "terlambat 10/02/2023",
+        "terlambat & tidak rapi 14/02/2023"
+      ],
+      "kelas": "X DKV 2",
+      "rank": 73
+    },
+    {
+      "id siswa": "Novita Chen Chen",
+      "pelanggaran": [
+        "terlambat 07/02/2023",
+        "terlambat & tidak rapi 15/02/2023"
+      ],
+      "kelas": "X DKV 3",
+      "rank": 73
+    },
+    {
+      "id siswa": "Yulianto",
+      "pelanggaran": ["terlambat 07/02/2023", "lompat pagar 15/02/2023"],
+      "kelas": "X DKV 2",
+      "rank": 63
+    },
+    {
+      "id siswa": "Leny Marselina",
+      "pelanggaran": ["terlambat 07/02/2023", "terlambat 14/02/2023"],
+      "kelas": "X DKV 1",
+      "rank": 60
+    },
+    {
+      "id siswa": "Axel",
+      "pelanggaran": ["terlambat 08/02/2023", "terlambat 14/02/2023"],
+      "kelas": "X DKV 1",
+      "rank": 60
+    },
+    {
+      "id siswa": "Ruyandi",
+      "pelanggaran": ["terlambat 01/02/2023", "terlambat 14/02/2023"],
+      "kelas": "X DKV 2",
+      "rank": 60
+    },
+    {
+      "id siswa": "Richi Amricson",
+      "pelanggaran": ["terlambat 03/02/2023", "terlambat 14/02/2023"],
+      "kelas": "X DKV 2",
+      "rank": 60
+    },
+    {
+      "id siswa": "Mely Filadelvia",
+      "pelanggaran": ["terlambat 08/02/2023", "terlambat 14/02/2023"],
+      "kelas": "X DKV 2",
+      "rank": 60
+    },
+    {
+      "id siswa": "Feliciana Widyanata",
+      "pelanggaran": ["terlambat 15/02/2023", "terlambat 20/02/2023"],
+      "kelas": "X DKV 2",
+      "rank": 60
+    },
+    {
+      "id siswa": "Kevin Permana",
+      "pelanggaran": ["terlambat 03/02/2023", "terlambat 15/02/2023"],
+      "kelas": "X DKV 3",
+      "rank": 60
+    },
+    {
+      "id siswa": "Selviana",
+      "pelanggaran": ["terlambat 08/02/2023", "terlambat 15/02/2023"],
+      "kelas": "X DKV 3",
+      "rank": 60
+    },
+    {
+      "id siswa": "Boby Apriadi",
+      "pelanggaran": ["terlambat 10/02/2023", "terlambat 14/02/2023"],
+      "kelas": "X DKV 3",
+      "rank": 60
+    },
+    {
+      "id siswa": "Sisilia Putri Sanjaya",
+      "pelanggaran": ["terlambat 15/02/2023", "terlambat 15/02/2023"],
+      "kelas": "X DKV 3",
+      "rank": 60
+    },
+    {
+      "id siswa": "Youkhari Putri Cenjaya",
+      "pelanggaran": ["tidak rapi 14/02/2023"],
+      "kelas": "X DKV 1",
+      "rank": 31
+    },
+    {
+      "id siswa": "Pangeran Yoel H.Simorangkir",
+      "pelanggaran": ["terlambat 02/02/2023"],
+      "kelas": "X DKV 1",
+      "rank": 30
+    },
+    {
+      "id siswa": "Hansen",
+      "pelanggaran": ["terlambat 14/02/2023"],
+      "kelas": "X DKV 1",
+      "rank": 30
+    },
+    {
+      "id siswa": "Rosalina",
+      "pelanggaran": ["terlambat 15/02/2023"],
+      "kelas": "X DKV 1",
+      "rank": 30
+    },
+    {
+      "id siswa": "Julius",
+      "pelanggaran": ["terlambat 10/02/2023"],
+      "kelas": "X DKV 2",
+      "rank": 30
+    },
+    {
+      "id siswa": "Donny Dozen",
+      "pelanggaran": ["terlambat 10/02/2023"],
+      "kelas": "X DKV 2",
+      "rank": 30
+    },
+    {
+      "id siswa": "Frendy Antonius",
+      "pelanggaran": ["terlambat 02/02/2023"],
+      "kelas": "X DKV 3",
+      "rank": 30
+    }
+  ]
+}
