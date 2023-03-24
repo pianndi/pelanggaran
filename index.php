@@ -45,15 +45,18 @@ $pelanggaran = [];
 $i = 0;
 foreach ($idsiswa as $ids) {
   $pelanggaran[$i] = ["id siswa" => $ids,
-    "pelanggaran" => []];
+    "kelas" => "",
+    "pelanggaran" => []
+  ];
   foreach ($rows as $r) {
     if ($r["id siswa"] == $ids) {
       // kembalikan data lainnya
       $pelanggaran[$i]["kelas"] = $r["kelas"];
       //
-      $pelanggaran[$i]["pelanggaran"][] = $r["tanggal"] ." : ".$r["pelanggaran"];
+      $pelanggaran[$i]["pelanggaran"][] = $r["tanggal"] .": ".$r["pelanggaran"];
     }
   }
+  $pelanggaran[$i]["total"] += count($pelanggaran[$i]["pelanggaran"]);
   // beri nilai per pelanggaran
   foreach ($pelanggaran[$i]["pelanggaran"] as $p) {
     $pelanggaran[$i]["rank"] += strlen($p);
@@ -88,6 +91,7 @@ usort($pelanggaran, function ($a, $b) {
       <option value="<?=$k; ?>" <?php if ($selectedKelas == $k): ?>selected<?php endif; ?>><?=$k; ?></option>
       <?php endforeach; ?>
     </select>
+    <button onclick="convertToExcel(<?=str_replace('"', "'", json_encode($pelanggaran)); ?>,'pelanggaran_<?php if (!empty($selectedKelas)): echo $selectedKelas ?>_<?php endif; ?><?=str_replace("/", "-", $bulan); ?>.csv')">Excel</button>
   </form>
   <?php if (empty($pelanggaran)): ?>
   <center><h2>Data Masih Kosong...</h2></center>
@@ -109,5 +113,36 @@ usort($pelanggaran, function ($a, $b) {
     <?php endforeach; ?>
   </table>
   <?php endif; ?>
+  <script type="text/javascript" charset="utf-8">
+    function convertToExcel(data, filename) {
+      // Membuat baris header
+      const header = Object.keys(data[0]).join(",") + "\n";
+
+      // Membuat baris data
+      const rows = data.map(obj =>
+        Object.values(obj)
+        .map(value => `"${value}"`) // Menggunakan tanda kutip pada data
+        .join(",")
+      );
+      const csv = header + rows.join("\n");
+
+      // Membuat file Excel dengan tipe MIME "application/vnd.ms-excel"
+      const blob = new Blob([csv], {
+        type: "application/vnd.ms-excel"
+      });
+
+      // Membuat URL objek dari blob dan membuat hyperlink untuk download
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+
+      // Membersihkan URL objek dan elemen hyperlink
+      URL.revokeObjectURL(url);
+      document.body.removeChild(link);
+    }
+  </script>
 </body>
 </html>
